@@ -1,0 +1,49 @@
+<template>
+  <div class="spinner"></div>
+</template>
+
+<script>
+
+export default {
+  setup () {
+
+  }
+}
+</script>
+
+<style scoped lang="scss">
+  .spinner {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 80px;
+  height: 80px;
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid rgb(12, 11, 11);
+  border-color: #b32f2f transparent #b32f2f transparent;
+  animation: spinner 1.2s infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+</style>

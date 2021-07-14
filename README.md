@@ -1,4 +1,4 @@
-# nasa-apod
+# nasa apod
 
 ## Project setup
 ```
