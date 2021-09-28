@@ -1,24 +1,11 @@
-# nasa apod
+# NASA apod
+
+Small project to consume nasa apod API and show daily NASA media in a web page
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Watch it
+[https://daily-image-nasa.surge.sh/](https://daily-image-nasa.surge.sh/)
